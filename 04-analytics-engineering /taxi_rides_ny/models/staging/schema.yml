@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: pelagic-cocoa-448818-i1
+    schema: Trips_data_all
+
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
+      
